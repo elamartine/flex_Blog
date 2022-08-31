@@ -1,0 +1,30 @@
+/* Utilitarios */
+@import url("./styles/reset.css");
+@import url("./styles/utilitarios/utilitarios.css");
+@import url("./styles/utilitarios/tipografia.css");
+@import url("./styles/utilitarios/cores.css");
+
+
+
+/* Cabeçalho */
+@import url("./styles/info.css");
+@import url("./styles/header.css");
+
+/* main */
+@import url("./styles/main.css");
+
+/* section */
+@import url("./styles/section-produtos.css");
+@import url("./styles/section-planos.css");
+@import url("./styles/section-qualidades.css");
+@import url("./styles/section-assinar.css");
+
+/* Footer */
+@import url("./styles/footer.css");
+
+
+
+
+
+
+

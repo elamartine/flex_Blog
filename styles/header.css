@@ -1,0 +1,24 @@
+.bg-menu{
+  background: var(--bg-menu);
+}
+
+.lista-menu{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  
+}
+
+.lista-menu a:after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 4px;
+  background-color: #fff;
+  transition: 0.3s;
+  margin-top: 4px;
+}
+
+.lista-menu  a:hover:after {
+  width: 100%;
+}

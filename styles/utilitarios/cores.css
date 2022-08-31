@@ -1,0 +1,13 @@
+:root{
+  --bg-secundaria: #122ab2;
+  --bg-menu: #2c70ff;
+  --cor-tipo-branca: #fff;
+  --cor-tipo-preta: #000;
+  --decoracao-azul-claro: #2c70ff;
+  --texto-cinza: #7c7c7c;
+}
+
+.cor-p{
+  color: var(--texto-cinza);
+}
+

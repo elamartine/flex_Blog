@@ -1,0 +1,50 @@
+.conteudo-section-qualidades{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section-qualidades{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.conteiner-interno{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 40px;
+}
+.flex-qualidades{
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.titulo-qualidades-1,.titulo-qualidades-2, .titulo-qualidades-3{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.titulo-qualidades-1::before{
+  content: "";
+  width: 8px;
+  height: 30px;
+  background-color: #ae81ff;
+  position: absolute;
+  left: -15px;
+}
+.titulo-qualidades-2::before{
+  content: "";
+  width: 8px;
+  height: 30px;
+  background-color: #f9265e;
+  position: absolute;
+  left: -15px;
+}
+.titulo-qualidades-3::before{
+  content: "";
+  width: 8px;
+  height: 30px;
+  background-color: #66d9eb;
+  position: absolute;
+  left: -15px;
+}

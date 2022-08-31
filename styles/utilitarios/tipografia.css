@@ -1,0 +1,80 @@
+.font-p-menu{
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  line-height: 133%;
+}
+.font-p{
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  line-height: 133%;
+}
+.font-logo{
+  font-size: 48px;
+  font-family: 'Nunito', sans-serif;
+  line-height: 133%;
+  color: var(--cor-tipo-branca);
+}
+.font-lista{
+  font-size: 26px;
+  font-family: 'Nunito', sans-serif;
+  line-height: 133%;
+  color: var(--cor-tipo-branca);
+}
+
+.font-h1{
+  font-size: 48px;
+  font-family: 'Nunito', sans-serif;
+  line-height: 155%;
+  color: var(--cor-tipo-preta);
+}
+.font-h2{
+  font-size: 42px;
+  font-family: 'Nunito', sans-serif;
+  line-height: 155%;
+  color: var(--cor-tipo-preta);
+}
+.font-h3{
+  font-size: 42px;
+  font-family: 'Nunito', sans-serif;
+  line-height: 155%;
+  color: #a4a4a4;
+}
+
+.font-lista-2{
+  font-size: 26px;
+  font-family: 'Nunito', sans-serif;
+  line-height: 133%;
+}
+.font-lista-3{
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  line-height: 133%;
+}
+
+@media (max-width:800px){
+  .font-h1{
+    font-size: 42px;
+  }
+  .font-lista{
+    font-size: 24px;
+  }
+  .font-p-menu{
+    font-size: 14px;
+  }
+}
+@media (max-width:600px){
+  .font-h1{
+    font-size: 36px;
+  }
+  .font-lista{
+    font-size: 18px;
+  }
+  .font-p-menu{
+    font-size: 12px;
+  }
+}
+@media (max-width:400px){
+  .font-h1{
+    font-size: 32px;
+  }
+}

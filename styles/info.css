@@ -1,0 +1,4 @@
+.bg-secundario{
+  background: var(--bg-secundaria);
+  color: var(--cor-tipo-branca);
+}

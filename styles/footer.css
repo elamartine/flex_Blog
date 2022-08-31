@@ -1,0 +1,32 @@
+.footer{
+  background-color: var(--bg-secundaria);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+.footer p{
+  margin: auto;
+  color: #fff;
+  font-size: 36px;
+  font-family: 'Nunito', sans-serif;
+  padding: 0px 30px;
+}
+
+@media (max-width: 800px){
+  .footer p{
+    font-size: 28px;
+  }
+  .footer{
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+@media (max-width: 600px){
+  .footer p{
+    font-size: 24px;
+  }
+  .footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}

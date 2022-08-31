@@ -1,0 +1,77 @@
+.section-assinar{
+  background-color: #f7f7f7;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-assinar h2{
+  font-size: 48px;
+  font-family: 'Nunito', sans-serif;
+  line-height: 155%;
+  color: #a4a4a4;
+}
+.flex-assinar{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.flex-assinar2{
+  display: flex;
+  align-items: stretch;
+
+
+}
+
+.section-assinar input{
+  width: 300px;
+  border: 5px solid var(--decoracao-azul-claro);
+  font-size: 24px;
+  padding-left: 15px;
+}
+.btn-2{
+  background-color: #2c70ff;
+  font-size: 48px;
+  padding: 10px 80px;
+  border: 5px solid var(--decoracao-azul-claro);
+  color: #fff;
+}
+
+@media (max-width:800px){
+  .btn-2{
+    font-size: 36px;
+    padding: 10px 50px;
+  }
+  .section-assinar input{
+    width: 200px;
+    font-size: 20px;
+  }
+  .section-assinar{
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+@media (max-width:600px){
+  .btn-2{
+    font-size: 28px;
+    padding: 10px 40px;
+  }
+  .section-assinar{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .section-assinar input{
+    width: 150px;
+    font-size: 18px;
+  }
+}
+@media (max-width:400px){
+  .btn-2{
+    font-size: 24px;
+    padding: 5px 25px;
+  }
+  .section-assinar input{
+    width: 150px;
+    font-size: 18px;
+  }
+}
