@@ -23,6 +23,9 @@
   border: 4px solid #000;
   margin: 30px;
 }
+.btn:hover{
+  background-color: #c1c1c1;
+}
 
 
 @media (max-width: 800px){
